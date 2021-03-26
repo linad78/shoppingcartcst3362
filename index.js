@@ -215,7 +215,7 @@ function isAuthenticated(req, res, next) {
   }
 }
 
-const PORT = process.env.Port ||3001;
+const PORT = process.env.PORT ||3001;
 app.listen(PORT, () => {
   // Creating connection
   // 
